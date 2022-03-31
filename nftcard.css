@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+.container {
+box-shadow: 8px 8px 8px hsl(216, 50%, 16%), 8px -8px 5px hsl(216, 50%, 16%);
+    height: 580px;
+    width: 330px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+background-color: hsl(216, 50%, 16%);
+}
+
+.box img {
+    width: 330px;
+    height: 330px;
+   padding: 25px 25px 25px 25px;
+    border-radius: 30px;
+}
+.box img:hover {
+    color: hsl(178, 100%, 50%);
+}
+.box-content {
+    padding: 15px 25px 25px 25px;
+    margin-top: -40px;
+    
+}
+.equilibrium {
+    color:  hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 18px;
+}
+.equilibrium:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: default;
+}
+.our {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: -5px;
+    color: hsl(215, 51%, 70%);
+}
+.eth {
+    color:   hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: -5px;
+}
+.eth:hover {
+color: hsl(178, 100%, 50%);
+}
+.days {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+ margin-top: -45px;
+ margin-left: 180px;
+}
+.jules {
+    font-weight: 300;
+  text-decoration: none;
+    font-size: 18px;
+}
+.jules img {
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   border: 2px solid hsl(0, 0%, 100%);
+}
+.link {
+    text-align: center;
+    color: hsl(215, 51%, 70%);
+    margin-top: -40px;
+   
+}
+.link a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+.link a:hover {
+    color: hsl(178, 100%, 50%);
+    border: none;
+    outline: none;
+    cursor: grab;
+}
+.attribution {
+    margin-top: 30px;
+}
